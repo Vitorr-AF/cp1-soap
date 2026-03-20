@@ -6,12 +6,12 @@ import jakarta.jws.WebService;
 public class WineStockServiceImplementation implements WineStockService {
 
     @Override
-    public String getMenu(){
+    public String getMenu() {
         return "Vinho tinto, Vinho branco, Vinho rosé, Vinho espumante";
     }
 
     @Override
-    public String placeOrder(String nome, int quantidade){
-        return "Pedido de "+quantidade+ " " + nome+ " confirmado!";
+    public String placeOrder(String nome, int quantidade) {
+        return "Pedido de " + quantidade + " " + nome + " confirmado!";
     }
 }
